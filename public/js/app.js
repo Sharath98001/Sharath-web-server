@@ -1,4 +1,3 @@
-console.log('Client side java script file is loaded')
 
 
 const weatherForm = document.querySelector('form')
