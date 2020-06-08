@@ -15,7 +15,7 @@ const forecast = (la,lo,callback)=>
           }
           else
           {
-              callback(undefined,"Weather description: "+body.daily[0].weather[0].description+'. It is currently '+body.current.temp+' degree out. Daily Temperature minimum is '+body.daily[0].temp.min+" and temperature maximum is "+body.daily[0].temp.max)
+              callback(undefined,"Weather description: "+body.current.weather[0].description+'. It is currently '+body.current.temp+' degree out. Daily Temperature minimum is '+body.daily[0].temp.min+" and temperature maximum is "+body.daily[0].temp.max)
           }
      })
 }
